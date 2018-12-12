@@ -1,8 +1,6 @@
 package com.vijay.javaBasics;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class ArrayInObject {
 

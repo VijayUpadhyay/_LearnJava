@@ -13,11 +13,13 @@ public class ObjectInsideMethod {
 		this.obj_name = obj_name;
 	}
 
+	@SuppressWarnings("unused")
 	static void show() {
 		// object t1 inside method becomes unreachable when show() removed
 		ObjectInsideMethod t1 = new ObjectInsideMethod("t1");
 		display();
 	}
+	@SuppressWarnings("unused")
 	static void display() {
 		// object t2 inside method becomes unreachable when display() removed
 		ObjectInsideMethod t2 = new ObjectInsideMethod("t2");

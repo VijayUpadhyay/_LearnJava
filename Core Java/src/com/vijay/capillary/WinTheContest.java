@@ -9,6 +9,7 @@ public class WinTheContest {
 
 	public static void main(String[] args) {
 		//System.out.println("Please enter the number of contestents");
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		int students=0;
 		if(sc.hasNextInt())
@@ -18,6 +19,7 @@ public class WinTheContest {
 		List<BigInteger> countAndSum = new ArrayList<BigInteger>();
 		for(int i= 0;i<students;i++){
 			//System.out.println("Please enter the number for student "+(i+1));
+			@SuppressWarnings("resource")
 			Scanner studentData = new Scanner(System.in);
 			if(studentData.hasNextInt()){
 				studentNumber.add(studentData.nextInt());

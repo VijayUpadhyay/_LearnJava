@@ -6,6 +6,11 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class DeserializationExample implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1514995478507026092L;
+
 	public static void main(String[] args) {
 		Employee e = new Employee();
 		e.name = "Reyan Ali";

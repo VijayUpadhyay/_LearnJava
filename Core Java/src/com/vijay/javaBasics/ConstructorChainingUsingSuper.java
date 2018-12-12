@@ -18,6 +18,7 @@ public class ConstructorChainingUsingSuper extends ConstructorSuper{
 	public ConstructorChainingUsingSuper() {
 		this(5);
 	}
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		ConstructorChainingUsingSuper obj = new ConstructorChainingUsingSuper();
 		ConstructorChainingUsingSuper obj1 = new ConstructorChainingUsingSuper(5);

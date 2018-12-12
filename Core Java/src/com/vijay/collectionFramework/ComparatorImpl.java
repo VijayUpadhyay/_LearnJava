@@ -1,7 +1,5 @@
 package com.vijay.collectionFramework;
 
-import java.util.Comparator;
-
 public class ComparatorImpl implements Comparable<ComparatorImpl>{
 
 	private int empID;

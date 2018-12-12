@@ -5,7 +5,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AssigningMapIntoList implements Serializable{
-	 Map<String, Long> m = new HashMap<String, Long>();
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5379004257228213009L;
+	Map<String, Long> m = new HashMap<String, Long>();
 	
 	public Map<String, Long> addValueToMap(){
 		m.put("user1", new Long(1234));

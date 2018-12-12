@@ -2,6 +2,7 @@ package com.vijay.exceptions;
 
 //Java program to demonstrate how exception is thrown.
 public class ThrowsExecp{
+	@SuppressWarnings("null")
 	public static void str(){
 	    String str = null;
 	    

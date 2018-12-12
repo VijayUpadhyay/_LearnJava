@@ -1,6 +1,5 @@
 package com.vijay.association;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class College {

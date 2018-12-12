@@ -2,7 +2,8 @@ package com.vijay.operators;
 
 public class StaticAndNonStaticMethod {
        
-	    public static void main(String args[])
+	    @SuppressWarnings({ "static-access", "null" })
+		public static void main(String args[])
 	    {
 	        StaticAndNonStaticMethod obj= null;
 	        obj.staticMethod();

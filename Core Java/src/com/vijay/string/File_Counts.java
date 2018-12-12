@@ -15,6 +15,7 @@ public class File_Counts {
 		
 		FileInputStream fip = new FileInputStream(file);
 		InputStreamReader isr = new InputStreamReader(fip);
+		@SuppressWarnings("resource")
 		BufferedReader br= new BufferedReader(isr);
 		
 		String line;

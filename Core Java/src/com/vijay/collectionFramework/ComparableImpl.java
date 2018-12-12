@@ -1,7 +1,6 @@
 package com.vijay.collectionFramework;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class ComparableImpl implements Comparable<ComparableImpl>{
 

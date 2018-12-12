@@ -12,6 +12,7 @@ public class ReassignRefVar {
 	}
 
 	// Driver method
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
 		ReassignRefVar t1 = new ReassignRefVar("t1");
 		ReassignRefVar t2 = new ReassignRefVar("t2");

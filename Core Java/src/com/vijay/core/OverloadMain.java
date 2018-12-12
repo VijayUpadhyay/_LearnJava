@@ -3,17 +3,19 @@ package com.vijay.core;
 public class OverloadMain {
 	
 	public static void main() {
-		System.out.println("inside main  without args");
+		System.out.println("inside main without args");
 	}
 
 	public static void main(String[] args) {
 		
 		System.out.println("inside main args");
 		
+		@SuppressWarnings("unused")
 		OverloadMain obj= new OverloadMain();
-		obj.main();
+		OverloadMain.main();
+		//obj.main();
 		String arr[] = {"vj","ram"};
-		 obj.main(arr);//  -------> infinite loop for main method.
+		 OverloadMain.main(arr);//  -------> infinite loop for main method.
 	}
 
 }

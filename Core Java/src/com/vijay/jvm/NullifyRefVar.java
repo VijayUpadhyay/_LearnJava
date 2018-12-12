@@ -11,6 +11,7 @@ public class NullifyRefVar {
 	}
 
 	// Driver method
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
 		NullifyRefVar t1 = new NullifyRefVar("t1");
 

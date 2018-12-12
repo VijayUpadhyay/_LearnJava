@@ -22,6 +22,7 @@ public static BigInteger findProduct(Integer number){
 	return product;
 }
 
+@SuppressWarnings("unused")
 private static int[] operations(int product){
 	int[] arr = new int[2];// To store count and sum of digits
 	int count=0,sum=0;

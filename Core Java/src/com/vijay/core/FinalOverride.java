@@ -20,8 +20,8 @@ public class FinalOverride extends FinalOverloading{
 		obj1.getData1("sdvd", 3, "dsv");
 		
 		System.out.println("For foo()");
-		System.out.println(obj.foo());
-		System.out.println(obj1.foo());
+		System.out.println(FinalOverloading.foo());
+		System.out.println(FinalOverride.foo());
 
 	}
 

@@ -23,6 +23,7 @@ public class GarbageCollectionEx {
 		System.gc();
 		
 	}
+	@SuppressWarnings("unused")
 	public static void show(){
 		GarbageCollectionEx test = new GarbageCollectionEx();
 	}

@@ -15,6 +15,7 @@ public final class ImmutableClass {
 		return name;
 	}
 
+	@SuppressWarnings("unchecked")
 	public HashMap<String, String> getTestMap() {
 		//return testMap;
 		return (HashMap<String, String>) testMap.clone();

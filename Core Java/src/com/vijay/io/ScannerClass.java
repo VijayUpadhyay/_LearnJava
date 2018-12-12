@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ScannerClass {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		 // Declare the object and initialize with
         // predefined standard input object

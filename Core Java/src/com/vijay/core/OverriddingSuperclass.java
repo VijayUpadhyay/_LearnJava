@@ -18,7 +18,8 @@ public class OverriddingSuperclass {
 	        }
 	    }
 	 
-	    public static void main(String[] args)
+	    @SuppressWarnings("static-access")
+		public static void main(String[] args)
 	    {
 	        superclass A = new superclass();
 	        superclass B = new subclass();

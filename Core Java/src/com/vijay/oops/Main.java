@@ -2,6 +2,7 @@ package com.vijay.oops;
 
 //file name: Main.java
 class Base {
+	@SuppressWarnings("unused")
 	private final void foo() {
 		System.out.println("Base Class");
 	}
